@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings =webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://cpscn.edu.bd/");
+        webView.loadUrl("http://cpscn.edu.bd/");    //web side link
     }
 }
